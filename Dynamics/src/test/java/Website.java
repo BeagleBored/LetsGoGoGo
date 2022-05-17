@@ -20,7 +20,7 @@ public class Website {
 	public void LetsGOOO() {
 		System.setProperty("webdriver.chrome.driver", projectPath + chromeDriverPath);
 		this.driver = new ChromeDriver();
-		driver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
+		//driver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.get(baseUrl);	
 
