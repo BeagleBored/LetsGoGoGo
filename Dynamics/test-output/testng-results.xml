@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-05-16T18:50:05 CDT" name="Default suite" finished-at="2022-05-16T18:50:22 CDT" duration-ms="17422">
+  <suite started-at="2022-05-16T20:36:45 CDT" name="Default suite" finished-at="2022-05-16T20:36:57 CDT" duration-ms="12043">
     <groups>
     </groups>
-    <test started-at="2022-05-16T18:50:05 CDT" name="Default test" finished-at="2022-05-16T18:50:22 CDT" duration-ms="17422">
+    <test started-at="2022-05-16T20:36:45 CDT" name="Default test" finished-at="2022-05-16T20:36:57 CDT" duration-ms="12043">
       <class name="Website">
-        <test-method signature="LetsGOOO()[pri:0, instance:Website@5f683daf]" started-at="2022-05-16T18:50:05 CDT" name="LetsGOOO" finished-at="2022-05-16T18:50:22 CDT" duration-ms="17355" status="PASS">
+        <test-method signature="LetsGOOO()[pri:0, instance:Website@5f683daf]" started-at="2022-05-16T20:36:45 CDT" name="LetsGOOO" finished-at="2022-05-16T20:36:57 CDT" duration-ms="11996" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LetsGOOO -->

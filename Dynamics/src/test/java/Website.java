@@ -20,12 +20,13 @@ public class Website {
 	public void LetsGOOO() {
 		System.setProperty("webdriver.chrome.driver", projectPath + chromeDriverPath);
 		this.driver = new ChromeDriver();
-		//driver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(7, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.get(baseUrl);	
 
-		//WebElement clickSignInButton = driver.findElement(By.cssSelector("a[class='nav__button-secondary']"));
-		//clickSignInButton.click();
+		
+		WebElement clickFoodButton = driver.findElement(By.cssSelector("div>ul>li>a[href='https://letsgo.com/category/food/']"));
+		clickFoodButton.click(); 
 
 	}
 	
